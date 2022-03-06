@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPART | Home</title>
     <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <title>SPART | Home</title>
 </head>
 <body>
-    <h2> Test header </h2>
+    <!-- Sidenav Open -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Our Team</a>
+        <a href="#">Event</a>
+        <a href="#">Competitions</a>
+        <a href="#">Sponsor Us</a>
+        <a href="#">Donate</a>
+    </div>
+    <div class="menubtn" style=" cursor:pointer; text-align: right;" onclick="openNav()"><i class="fa fa-bars" style="font-size:80px;color:grey"></i></div>
+    
+    <script>
+        function openNav(){
+          document.getElementById("mySidenav").style.width = "250px";
+        }  
+        function closeNav(){
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <!-- Sidenav Close -->
 </body>
 </html>
