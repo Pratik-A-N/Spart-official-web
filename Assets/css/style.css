@@ -535,12 +535,15 @@ body {
 
 
   /* Css for footer */
-
+  .last-container{
+    background-image: linear-gradient(black ,rgb(66, 65, 65));
+    height: 75vh;
+  }
   .footer{
     /* border: 2px solid black; */
-    background-image: linear-gradient(black ,rgb(66, 65, 65));
-    height: 70vh;
+   
     display: flex;
+   
     justify-content: center;
   }
 
@@ -553,8 +556,68 @@ body {
   }
 
   .social, .contact{
-    border: 1px solid rgb(201, 194, 194);
+    /* border: 1px solid rgb(201, 194, 194); */
     margin: 2vw;
     padding: 2vw;
+   
+  }
+
+  .social{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
   }
   
+  input,textarea{
+    background-color: rgba(0, 0, 0, 0.01);
+    border:none;
+    border-bottom: 0.001px solid white;
+    margin: 10px;
+  }
+
+  #subject, #message{
+    width: 100%;
+  }
+
+  #btnn{
+    color:rgb(190, 177, 177);
+    background-color: rgba(0, 0, 0, 0.01);
+    border:none;
+    /* border-bottom: 0.001px solid white; */
+    margin: 10px;
+    align-self: center;
+  }
+
+  input:hover,textarea:hover{
+    background-color: rgba(0, 0, 0, 0.01);
+    border:none;
+    border-bottom: 0.001px solid rgb(43, 144, 202);
+    margin: 10px;
+  }
+
+  #btnn:hover{
+    color: rgb(43, 144, 202);
+    
+  }
+
+  .fa-facebook, .fa-twitter,.fa-instagram{
+    color: white;
+    
+    
+  }
+
+   .fa{
+     text-align: center;
+     margin: 20px;
+     font-size: 100%;
+   }
+
+  hr{
+    color: white;
+    height: 2px;
+  }
+
+  h5{
+    text-align: center;
+    color: white;
+  }
