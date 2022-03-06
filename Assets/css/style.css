@@ -1,3 +1,6 @@
+*{
+  margin: 0px;
+}
 body {
     font-family: "Lato", sans-serif;
   }
@@ -529,3 +532,29 @@ body {
   }
 
   /* helper CSS end*/
+
+
+  /* Css for footer */
+
+  .footer{
+    /* border: 2px solid black; */
+    background-image: linear-gradient(black ,rgb(66, 65, 65));
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .subfoot{
+    display: flex;
+  }
+
+  h2{
+    color: white;
+  }
+
+  .social, .contact{
+    border: 1px solid rgb(201, 194, 194);
+    margin: 2vw;
+    padding: 2vw;
+  }
+  
