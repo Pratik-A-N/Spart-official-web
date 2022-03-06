@@ -4,33 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/style.css">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon">
+    <link href="assets/img/logo.png" rel="apple-touch-icon">
+    
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!--Main CSS File -->
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
+
     <title>SPART | Home</title>
 </head>
 <body>
-    <!-- Sidenav Open -->
+  
+     <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Our Team</a>
-        <a href="#">Event</a>
-        <a href="#">Competitions</a>
-        <a href="#">Sponsor Us</a>
-        <a href="#">Donate</a>
+      <!-- <h1 class="logo"><a href="index.html">SPART</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>
+
+      <nav id="navbar" class="navbar">
+      <!-- Sidenav Open -->
+
+        <span id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Our Team</a>
+            <a href="#">Event</a>
+            <a href="#">Competitions</a>
+            <a href="#">Sponsor Us</a>
+            <a href="#">Donate</a>
+        </span>
+         <span class="menubtn" style=" cursor:pointer; text-align: right;" onclick="openNav()"><i class="fa fa-bars" style="font-size:70px;color:grey"></i></span>
+        <!-- Sidenav Close -->
+      </nav><!-- .navbar -->
+
     </div>
-    <div class="menubtn" style=" cursor:pointer; text-align: right;" onclick="openNav()"><i class="fa fa-bars" style="font-size:80px;color:grey"></i></div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/solar.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">SPART</h1>
+          <p class="hero-subtitle"><span class="typed"
+              data-typed-items="Solar Powered Airship Racing Team"></span>
+          </p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+<center>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+ <h1>Main Body Starts from here</h1>
+</center>
+
+
+
+
+
+
+
+
+
+
     
-    <script>
-        function openNav(){
-          document.getElementById("mySidenav").style.width = "250px";
-        }  
-        function closeNav(){
-          document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
-    <!-- Sidenav Close -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
