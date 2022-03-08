@@ -538,26 +538,30 @@ a:hover {
 # Introduction Section
 --------------------------------------------------------------*/
 
-.section-1{
-  background-color: rgb(173, 21, 51);
-  padding: 50px;
-}
-
 .container-boxes{
-  width: 80%;
-  margin-top: 50px;
   margin: auto;
   overflow: hidden;
 }
 
+
+.section-1{
+  background-color: rgb(173, 21, 51);
+  /* margin-top: 50px; */
+  /* width: 80%; */
+  padding: 50px;
+}
+
 .who-we-are{
   /* color: black; */
-  font-size: 36px;
   text-align: center;
+  width: 80%;
 }
 
 .who-we-are h2{
   color: black;
+  font-size: 36px;
+  /* width: 80%; */
+  text-align: center;
 }
 
 .short-intro{
@@ -565,8 +569,40 @@ a:hover {
   color: #ffffff;
   text-align: center;
   font-size: 18px;
+  /* width: 80%; */
 }
 
+.section-2{
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.color-2{
+  background-color: #464545;
+}
+
+.legacy h2{
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+}
+
+.legacy p{
+  font-size: 18px;
+  color: #a5a5a5;
+}
+
+.legacy span{
+  color: red;
+}
+
+.side-style{
+  transform: rotate(90deg);
+  color: rgb(121, 121, 121);
+  font-size: 48px;
+  margin: -10px;
+}
 
 /*--------------------------------------------------------------
 # Footer
