@@ -679,11 +679,11 @@ input:hover,textarea:hover{
   
 }
 
-  .fa{
-    text-align: center;
-    margin: 20px;
-    font-size: 100%;
-  }
+.fa{
+  text-align: center;
+  margin: 20px;
+  font-size: 100%;
+}
 
 hr{
   color: white;
@@ -692,5 +692,5 @@ hr{
 
 h5{
   text-align: center;
-  color: white;
+  color: black;
 }
