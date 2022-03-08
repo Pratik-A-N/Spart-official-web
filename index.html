@@ -1,139 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Favicons -->
-    <link href="./Assets/img/logo.png" rel="icon">
-    <link href="./Assets/img/logo.png" rel="apple-touch-icon">
+      <!-- Favicons -->
+      <link href="./Assets/img/logo.png" rel="icon">
+      <link href="./Assets/img/logo.png" rel="apple-touch-icon">
+      
+      <!-- Vendor CSS Files -->
+      <link href="./Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="./Assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+      <link href="./Assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+      <link href="./Assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+      <!--Main CSS File -->
+      <link rel="stylesheet" href="./Assets/css/style.css">
+      <!-- Font-Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- link for icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <title>SPART | Home</title>
+  </head>
+
+  <body>
     
-    <!-- Vendor CSS Files -->
-    <link href="./Assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./Assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="./Assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="./Assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
 
-    <!--Main CSS File -->
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <!-- Font-Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <h1 class="logo"><a href="index.html">SPART</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo"><img src="./Assets/img/logo.png" alt=""></a>
 
-    <!-- link for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <nav id="navbar" class="navbar">
+        <!-- Sidenav Open -->
 
-    <title>SPART | Home</title>
-</head>
-<body>
-  
-     <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+          <span id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#">About</a>
+              <a href="#">Our Team</a>
+              <a href="#">Event</a>
+              <a href="#">Competitions</a>
+              <a href="#">Sponsor Us</a>
+              <a href="#">Donate</a>
+          </span>
+          <span class="menubtn" style=" cursor:pointer; text-align: right;" onclick="openNav()"><i class="fa fa-bars" style="font-size:70px;color:grey"></i></span>
+          <!-- Sidenav Close -->
+        </nav><!-- .navbar -->
 
-      <!-- <h1 class="logo"><a href="index.html">SPART</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="./Assets/img/logo.png" alt=""></a>
+      </div>
+    </header><!-- End Header -->
 
-      <nav id="navbar" class="navbar">
-      <!-- Sidenav Open -->
-
-        <span id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">About</a>
-            <a href="#">Our Team</a>
-            <a href="#">Event</a>
-            <a href="#">Competitions</a>
-            <a href="#">Sponsor Us</a>
-            <a href="#">Donate</a>
-        </span>
-         <span class="menubtn" style=" cursor:pointer; text-align: right;" onclick="openNav()"><i class="fa fa-bars" style="font-size:70px;color:grey"></i></span>
-        <!-- Sidenav Close -->
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(./Assets/img/solar.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="hero-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">SPART</h1>
-          <p class="hero-subtitle"><span class="typed"
-              data-typed-items="Solar Powered Airship Racing Team"></span>
-          </p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="hero route bg-image" style="background-image: url(./Assets/img/solar.jpg)">
+      <div class="overlay-itro"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1 class="hero-title mb-4">SPART</h1>
+            <p class="hero-subtitle"><span class="typed"
+                data-typed-items="Solar Powered Airship Racing Team"></span>
+            </p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          </div>
         </div>
       </div>
+    </div><!-- End Hero Section -->
+
+    <div class="section-1">
+      <div class="container-boxes">
+        <div class="who-we-are">
+          <h2>Who We Are.</h2>
+        </div>
+        
+        <!-- some divider line -->
+    
+        <div class="short-intro">
+          We are SPART. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, architecto? Totam velit et molestiae ipsam repellendus mollitia dolore quod similique aliquam ipsum molestias maxime nesciunt sequi dolorem, sit, at perspiciatis!
+        </div>
+    
+      </div>
     </div>
-  </div><!-- End Hero Section -->
 
-<center>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
- <h1>Main Body Starts from here</h1>
-</center>
+    <center>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+      <h1>Main Body Starts from here</h1>
+    </center>
 
-
-
-
-
-
-<!-- footer -->
-<div class="last-container">
-<div class="footer">
-  <div class="subfoot">
-    <div class="social">
-       <h2>Follow us on</h2>
-       <a href="#" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-twitter"></a>
-       <a href="#" class="fa fa-instagram"></a>
-    </div>
-    <div class="contact">
-        <h2>Contact US</h2>
-        <form action="#">
-          <span><input type="text" name="" id="name" placeholder="Name"> </span>
-          <span> <input type="email" name="" id="email" placeholder="Email"> </span>
-          <p><input type="text" name="" id="subject" placeholder="Subject"></p>
-          <p><textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
-          <button id="btnn"> Send</button>
-        </form>
+  <!-- footer -->
+  <div class="last-container">
+  <div class="footer">
+    <div class="subfoot">
+      <div class="social">
+        <h2>Follow us on</h2>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+      <div class="contact">
+          <h2>Contact US</h2>
+          <form action="#">
+            <span><input type="text" name="" id="name" placeholder="Name"> </span>
+            <span> <input type="email" name="" id="email" placeholder="Email"> </span>
+            <p><input type="text" name="" id="subject" placeholder="Subject"></p>
+            <p><textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+            <button id="btnn"> Send</button>
+          </form>
+      </div>
     </div>
   </div>
-</div>
-<hr>
-<h5>&copy; Spart @2022</h5>
-</div>
+  <hr>
+  <h5>&copy; Spart @2022</h5>
+  </div>
 
 
-    
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+      
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="./Assets/vendor/purecounter/purecounter.js"></script>
-  <script src="./Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="./Assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="./Assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="./Assets/vendor/typed.js/typed.min.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="./Assets/vendor/purecounter/purecounter.js"></script>
+    <script src="./Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./Assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="./Assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./Assets/vendor/typed.js/typed.min.js"></script>
 
 
-  <!-- Template Main JS File -->
-  <script src="./Assets/js/main.js"></script>
-</body>
+    <!-- Template Main JS File -->
+    <script src="./Assets/js/main.js"></script>
+  </body>
 </html>
