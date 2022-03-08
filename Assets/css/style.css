@@ -561,7 +561,20 @@ a:hover {
   color: black;
   font-size: 36px;
   /* width: 80%; */
+  align: center;
+}
+
+/* hr {
+	border: 0;
+	border-top: 1px solid #094CFA;
+} */
+
+.section-1 hr{
+  color: white;
+  width: 30px;
+  height: 5px;
   text-align: center;
+  /* border-style: inset; */
 }
 
 .short-intro{
@@ -685,7 +698,7 @@ input:hover,textarea:hover{
   font-size: 100%;
 }
 
-hr{
+.last-container hr{
   color: white;
   height: 2px;
 }
