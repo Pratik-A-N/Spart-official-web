@@ -552,7 +552,6 @@ a:hover {
   /* color: white;
   height: 3px;
   align: center; */
-
   border: 2px solid rgb(255, 255, 255);
   width: 30px;
 }
@@ -560,3 +559,7 @@ a:hover {
   /* height: 200px; */
   padding: 60px;
 }
+/* 
+.donor-boxes h2{
+  font-weight: 500;
+} */
