@@ -544,4 +544,19 @@ a:hover {
   }
 
   
+/*--------------------------------------------------------------
+# CSS for Sponsor Us page
+--------------------------------------------------------------*/
 
+.donor-boxes hr{
+  /* color: white;
+  height: 3px;
+  align: center; */
+
+  border: 2px solid rgb(255, 255, 255);
+  width: 30px;
+}
+.donor-box{
+  /* height: 200px; */
+  padding: 60px;
+}
